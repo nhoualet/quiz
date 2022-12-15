@@ -4,7 +4,7 @@ const questions = [
         optionA: "Oui",
         optionB: "Cela dépend de la saison",
         optionC: "Non",
-        correctOption: "optionA",
+        correctOption: "optionC",
         explicationWrong: "Non, il n'est malheureusement pas possible de cuire des oeufs à la simple température de Mars. Les températures sur Mars varient de -125°C à 20°C or, pour faire cuire un oeuf il faut une température de 60°C minimum",
         explicationGood: "Bonne réponse, effectivement il n'est pas possible de cuire des oeufs à la simple température de Mars car les températures au niveau de la surface martienne varient de -125°C à 20°C. Pour faire cuire un oeuf il faudrait une température de 60°C minimum"
     },
