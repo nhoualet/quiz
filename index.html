@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Quizzy</title>
+        <link rel="stylesheet" href="style.css"/>
+    </header>
+    <body onload="load()">
+        <main>
+            <!-- creating a modal for when quiz ends -->
+            <div class="modal-container" id="score-modal">
+              
+                <div class="modal-content-container">
+                  
+                    <h1>Le quizz est finis ! Voici les résultats</h1>
+                  
+                    <div class="grade-details">
+                        <p>Nombre de questions : <span class="nb-questions"></span></p>
+                        <p>Mauvaise réponses : <span id="wrong-answers"></span></p>
+                        <p>Bonne réponses : <span id="right-answers"></span></p>
+                        <p>Score final: <span id="right-answers2"></span>/<span class="nb-questions"></span> (<span id="grade-percentage"></span>%)</p>
+                        <p><span id="remarks"></span></p>
+                    </div>
+                  
+                    <div class="modal-button-container">
+                        <button onclick="closeScoreModal()">Continue</button>
+                    </div>
+                  
+                </div>
+            </div>
+    
+            <div class="game-quiz-container">
+              
+                <div class="game-details-container">
+                    <h1>Score : <span id="player-score"></span> / <span class="nb-questions"></span></h1>
+                    <h1>Question : <span id="question-number"></span> / <span class="nb-questions"></span></h1>
+                </div>
+    
+                <div class="game-question-container">
+                    <h1 id="display-question"></h1>
+                </div>
+    
+                <div class="game-options-container">
+                  
+                   <div class="modal-container" id="option-modal">
+                     
+                        <div class="modal-content-container">
+                             <h1>Please Pick An Option</h1>
+                          
+                             <div class="modal-button-container">
+                                <button onclick="closeOptionModal()">Continue</button>
+                            </div>
+                          
+                        </div>
+                     
+                   </div>
+                  
+                    <span>
+                        <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                        <label for="option-one" class="option" id="option-one-label"></label>
+                    </span>
+                  
+    
+                    <span>
+                        <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                        <label for="option-two" class="option" id="option-two-label"></label>
+                    </span>
+                  
+    
+                    <span>
+                        <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                        <label for="option-three" class="option" id="option-three-label"></label>
+                    </span>
+                  
+    
+                    <!-- <span>
+                        <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                        <label for="option-four" class="option" id="option-four-label"></label>
+                    </span> -->
+    
+    
+                </div>
+    
+                <div class="next-button-container">
+                    <button onclick="handleNextQuestion()">Question suivante</button>
+                </div>
+    
+            </div>
+            <div class="copyright-container">
+                <button id="copyright-button" onclick="toggleLicense()">Quiz basé sur le code de Sulaimon Olaniran, clickez sur ce message pour voir la license.</button>
+                <div id="copyright-text" style="display: none;">
+                    The MIT License (MIT)<br/>
+                    
+                    Copyright (c) 2022 Sulaimon Olaniran (<a href="https://codepen.io/Sulaimon-Olaniran/pen/zYKJLjK">https://codepen.io/Sulaimon-Olaniran/pen/zYKJLjK</a>)<br/><br/>
+                    
+                    Permission is hereby granted, free of charge, to any person obtaining a copy
+                    of this software and associated documentation files (the "Software"), to deal
+                    in the Software without restriction, including without limitation the rights
+                    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                    copies of the Software, and to permit persons to whom the Software is
+                    furnished to do so, subject to the following conditions:<br/><br/>
+
+                    The above copyright notice and this permission notice shall be included in all
+                    copies or substantial portions of the Software.<br/><br/>
+
+                    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. <br><br>
+                    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                    SOFTWARE.
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
