@@ -207,7 +207,7 @@ function toggleLicense(state){
         document.getElementById("copyright-button").innerHTML = "Clickez ici pour cacher la licence"
     } else {
         copyrightElem.style.display = "none";
-        document.getElementById("copyright-button").innerHTML = "Quiz basé sur le code de Sulaimon Olaniran, clickez sur ce message pour voir la license."
+        document.getElementById("copyright-button").innerHTML = "Quiz basé sur le code de Sulaimon Olaniran, clickez sur ce message pour voir la licence."
     }
 }
 
