@@ -20,7 +20,7 @@ const questions = [
     },
 
     {
-        question: "Où peut on trouver de l'eau lique sur Mars ?",
+        question: "Où peut on trouver de l'eau liquide sur Mars ?",
         optionA: "Dans les lacs",
         optionB: "Au niveau des glaciers",
         optionC: "En profondeur",
