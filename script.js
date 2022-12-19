@@ -218,3 +218,4 @@ function load(){
     console.log(document.getElementsByClassName("nb-questions"))
     NextQuestion(0)
 }
+console.log("script loaded")
