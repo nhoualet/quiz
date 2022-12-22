@@ -222,6 +222,7 @@ input[type=radio]:checked ~ .option {
     width: 40rem;
     padding: 20px;
     text-align: justify;
+	border: 1px solid #000;
 }
 
 button.styled {
@@ -242,7 +243,6 @@ button.back {
 
 button.copyright {
     width: 40rem;
-    color: #fff;
 }
 
 @media(min-width : 300px) and (max-width : 350px){
