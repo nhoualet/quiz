@@ -204,10 +204,10 @@ function toggleLicense(state){
     var copyrightElem = document.getElementById("copyright-text");
     if (copyrightElem.style.display === "none") {
         copyrightElem.style.display = "block";
-        document.getElementById("copyright-button").innerHTML = "Clickez ici pour cacher la licence"
+        document.getElementById("copyright-btn").innerHTML = "Cliquez ici pour cacher la licence"
     } else {
         copyrightElem.style.display = "none";
-        document.getElementById("copyright-button").innerHTML = "Quiz basé sur le code de Sulaimon Olaniran, clickez sur ce message pour voir la licence."
+        document.getElementById("copyright-btn").innerHTML = "Quiz basé sur le code de Sulaimon Olaniran, Cliquez sur ce message pour voir la licence."
     }
 }
 
