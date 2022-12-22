@@ -11,7 +11,7 @@ html, body{
 
 body{
     font-family: 'Montserrat', serif;
-    
+    background-color: #FFA656;
 }
 
 main{
@@ -21,7 +21,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #FFA656;
     background: url('https://cdn.pixabay.com/photo/2020/02/16/05/59/alien-4852662_960_720.jpg');
     background-repeat: no-repeat;
     background-size: cover;
