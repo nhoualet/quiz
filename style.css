@@ -22,7 +22,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: #FFA656;
-    background: url("/quiz/backgroundjpg");
+    background: url("/quiz/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
