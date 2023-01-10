@@ -31,7 +31,7 @@ const questions = [
     },
 
     {
-        question: "Quelle est la durée d'une journée sur Mars ? (arrondi à l'heure près)",
+        question: "Quelle est la durée d'une journée sur Mars ? (arrondie à l'heure près)",
         optionA: "12 heures",
         optionB: "48 heures",
         optionC: "24 heures",
@@ -41,7 +41,7 @@ const questions = [
     },
 
     {
-        question: "Quelle serais au minimum le temps du trajet Terre->Mars pour un humain avec nos moyens actuels ?",
+        question: "Quelle serait au minimum le temps du trajet Terre->Mars pour un humain avec nos moyens actuels ?",
         optionA: "30 jours",
         optionB: "620 jours",
         optionC: "260 jours",
