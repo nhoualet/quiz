@@ -11,7 +11,7 @@ const questions = [
 
     {
         question: "De quelle hauteur serait un saut sur Mars ?",
-        optionA: "Moins que sur Terre",
+        optionA: "Moins haut que sur Terre",
         optionB: "Comme sur Terre",
         optionC: "Plus haut que sur Terre",
         correctOption: "optionC",
