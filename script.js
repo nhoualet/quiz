@@ -12,9 +12,9 @@ const questions = [
     {
         question: "De quelle hauteur serait un saut sur Mars ?",
         optionA: "Moins haut que sur Terre",
-        optionB: "Comme sur Terre",
-        optionC: "Plus haut que sur Terre",
-        correctOption: "optionC",
+        optionB: "Plus haut que sur Terre",
+        optionC: "Comme sur Terre",
+        correctOption: "optionB",
         explicationWrong: "Mauvaise réponse, La gravité à la surface de Mars étant plus faible que sur Terre (37% de celle de la Terre), il serait possible de sauter jusqu'a environ 1m20",
         explicationGood: "Bonne réponse, La gravité étant de 37% de celle de la Terre, on pourrait effectuer des sauts allant jusqu'a environ 1m20."
     },
