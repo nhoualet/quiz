@@ -2,9 +2,9 @@ const questions = [
     {
         question: "Peut on faire cuire un oeuf sur Mars ?",
         optionA: "Oui",
-        optionB: "Cela dépend de la saison",
-        optionC: "Non",
-        correctOption: "optionC",
+        optionB: "Non",
+        optionC: "Cela dépend de la saison",
+        correctOption: "optionB",
         explicationWrong: "Non, il n'est malheureusement pas possible de cuire des oeufs à la simple température de Mars. Les températures sur Mars varient de -125°C à 20°C or, pour faire cuire un oeuf il faut une température de 60°C minimum",
         explicationGood: "Bonne réponse, effectivement il n'est pas possible de cuire des oeufs à la simple température de Mars car les températures au niveau de la surface martienne varient de -125°C à 20°C. Pour faire cuire un oeuf il faudrait une température de 60°C minimum"
     },
@@ -22,9 +22,9 @@ const questions = [
     {
         question: "Où peut on trouver de l'eau liquide sur Mars ?",
         optionA: "Dans les lacs",
-        optionB: "Au niveau des glaciers",
-        optionC: "En profondeur",
-        correctOption: "optionC",
+        optionB: "En profondeur",
+        optionC: "Au niveau des glaciers",
+        correctOption: "optionB",
         explicationWrong: "TODO IDK", // TODO
         explicationGood: "Bonne réponse, de l'eau a était découverte sous la surface marsienne à plus de 80km de profondeur"
 
@@ -32,10 +32,10 @@ const questions = [
 
     {
         question: "Quelle est la durée d'une journée sur Mars ? (arrondie à l'heure près)",
-        optionA: "12 heures",
-        optionB: "48 heures",
-        optionC: "24 heures",
-        correctOption: "optionC",
+        optionA: "48 heures",
+        optionB: "24 heures",
+        optionC: "12 heures",
+        correctOption: "optionB",
         explicationWrong: "Mauvaise réponse, la durée d'une journée sur Mars est de 24 heures et 37 minutes. En arrondissant à l'heure près on obtient donc 24 heures.",
         explicationGood: "Bonne réponse, la durée d'une journée sur Mars est de 24 heures et 37 minutes. En arrondissant à l'heure près on obtient donc 24 heures"
     },
@@ -43,9 +43,9 @@ const questions = [
     {
         question: "Quelle serait au minimum le temps du trajet Terre->Mars pour un humain avec nos moyens actuels ?",
         optionA: "30 jours",
-        optionB: "620 jours",
-        optionC: "260 jours",
-        correctOption: "optionC",
+        optionB: "260 jours",
+        optionC: "620 jours",
+        correctOption: "optionB",
         explicationWrong: "IDK TODO", // TODO
         explicationGood: "IDK TODO" // TODO
 
