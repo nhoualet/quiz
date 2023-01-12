@@ -11,20 +11,20 @@ const questions = [
 
     {
         question: "De quelle hauteur serait un saut sur Mars ?",
-        optionA: "Moins haut que sur Terre",
-        optionB: "Plus haut que sur Terre",
+        optionA: "Plus haut que sur Terre",
+        optionB: "Moins haut que sur Terre",
         optionC: "Comme sur Terre",
-        correctOption: "optionB",
+        correctOption: "optionA",
         explicationWrong: "Mauvaise réponse, La gravité à la surface de Mars étant plus faible que sur Terre (37% de celle de la Terre), il serait possible de sauter jusqu'a environ 1m20",
         explicationGood: "Bonne réponse, La gravité étant de 37% de celle de la Terre, on pourrait effectuer des sauts allant jusqu'a environ 1m20."
     },
 
     {
         question: "Où peut on trouver de l'eau liquide sur Mars ?",
-        optionA: "Dans les lacs",
-        optionB: "En profondeur",
-        optionC: "Au niveau des glaciers",
-        correctOption: "optionB",
+        optionA: "Au niveau des glaciers",
+        optionB: "Dans les lacs",
+        optionC: "En profondeur",
+        correctOption: "optionC",
         explicationWrong: "TODO IDK", // TODO
         explicationGood: "Bonne réponse, de l'eau a était découverte sous la surface marsienne à plus de 80km de profondeur"
 
@@ -32,9 +32,9 @@ const questions = [
 
     {
         question: "Quelle est la durée d'une journée sur Mars ? (arrondie à l'heure près)",
-        optionA: "48 heures",
+        optionA: "12 heures",
         optionB: "24 heures",
-        optionC: "12 heures",
+        optionC: "48 heures",
         correctOption: "optionB",
         explicationWrong: "Mauvaise réponse, la durée d'une journée sur Mars est de 24 heures et 37 minutes. En arrondissant à l'heure près on obtient donc 24 heures.",
         explicationGood: "Bonne réponse, la durée d'une journée sur Mars est de 24 heures et 37 minutes. En arrondissant à l'heure près on obtient donc 24 heures"
