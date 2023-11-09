@@ -5,7 +5,7 @@ Ce quiz a été fait pour un blog portant sur la question "Quelles sont les cond
 dans le cadre de l'UE *Compétence numérique, méthodologie et communication* (septembre-janvier 2022, L1)
 
 ## Lien du quiz
-https://13noodles.github.io/quiz/
+[https://13noodles.github.io/quiz/](https://nhoualet.github.io/quiz/)
 
 *(les boutons "revenir sur le blog" ne fonctionnent pas et font juste revenir à la page précédente. C'est volontaire, le blog n'est pas publique)*
 
